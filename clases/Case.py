@@ -26,7 +26,7 @@ def __init__(self, x, y):
   
 
 
-  self._generar_nombre()
+  self.generar_nombre()
 
   # Queremos poder acceder a una casilla a partir de su nombre
   instances[self.nombre] = self
